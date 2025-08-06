@@ -1,0 +1,19 @@
+This script reads the IPs from a file and classifies them.
+
+How to use the script:
+To use this script, follow the steps below:
+1 - Make sure you have Python 3.x installed on your system.
+2 - Clone this repository or download the files to your local machine.
+3 - Open a terminal or Command Prompt and navigate to the project folder.
+4 - Create a virtual environment and activate it (recommended).
+5 - Make sure there is a file called ips.txt in the same folder with a list of IP addresses, one per line.
+6 - Run the script with the following command:
+Bash
+
+python gestor_ips.py
+
+After execution, the script will create two new files in the same folder:
+ips_validas.txt: It will contain all IP addresses that comply with the IPv4 format.
+ips_invalidas.txt: It will contain the lines that do not comply with the format of an IP address.
+
+The validation could be improved to verify numerical ranges, this is an improvement that I will carry out shortly
